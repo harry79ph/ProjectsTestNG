@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DouglasFry {
-
+	//updates
 	public String baseURL = "https://www.douglasfry.com/";
 		public static WebDriver driver;
 

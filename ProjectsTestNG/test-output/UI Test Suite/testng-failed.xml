@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UI Test Suite]">
+  <test thread-count="5" name="Functional Testing(failed)">
+    <classes>
+      <class name="ui.SkipDemoTest">
+        <methods>
+          <include name="dataTeardown"/>
+          <include name="skipTest3"/>
+          <include name="dataSetup"/>
+          <include name="skipTest2"/>
+        </methods>
+      </class> <!-- ui.SkipDemoTest -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [UI Test Suite] -->

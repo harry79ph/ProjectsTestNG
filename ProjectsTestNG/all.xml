@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Complete Suite">
+
+  <test name="Complete Test">
+    <packages>
+    <package name="testcases"/><!-- All test cases belongs to this package will be run -->
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

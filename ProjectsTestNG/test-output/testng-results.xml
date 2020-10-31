@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19364" started-at="2020-10-24T20:04:21 BST" finished-at="2020-10-24T20:04:40 BST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19364" started-at="2020-10-24T20:04:21 BST" finished-at="2020-10-24T20:04:40 BST">
+      <class name="testcases.KenkoTNG">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testcases.KenkoTNG@48503868]" name="launch" is-config="true" duration-ms="5239" started-at="2020-10-24T20:04:15 BST" finished-at="2020-10-24T20:04:21 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:testcases.KenkoTNG@48503868]" name="navigate" is-config="true" duration-ms="6730" started-at="2020-10-24T20:04:21 BST" finished-at="2020-10-24T20:04:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="kenko()[pri:1, instance:testcases.KenkoTNG@48503868]" name="kenko" duration-ms="3116" started-at="2020-10-24T20:04:27 BST" finished-at="2020-10-24T20:04:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kenko -->
+        <test-method status="PASS" signature="secondPage()[pri:2, instance:testcases.KenkoTNG@48503868]" name="secondPage" duration-ms="9468" started-at="2020-10-24T20:04:30 BST" finished-at="2020-10-24T20:04:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondPage -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.KenkoTNG@48503868]" name="endSession" is-config="true" duration-ms="1" started-at="2020-10-24T20:04:40 BST" finished-at="2020-10-24T20:04:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.KenkoTNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
